@@ -32,3 +32,7 @@ npm run test
 - We use the [ava JavaScript test runner](https://github.com/avajs/ava) ([Assertions documentation](https://github.com/avajs/ava/blob/master/docs/03-assertions.md))
 - ℹ️ To keep tests fast, thou shalt try to avoid writing files in tests.
 
+## Modifications
+
+This version of `eleventy-plugin-rss` ignores items with `draft: true` in the
+frontmatter.
